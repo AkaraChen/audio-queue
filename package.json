@@ -1,0 +1,35 @@
+{
+  "name": "audio-queue",
+  "version": "1.0.0",
+  "dependencies": {
+    "howler": "^2.2.4",
+    "p-queue": "^8.0.1"
+  },
+  "devDependencies": {
+    "@akrc/tsconfig": "^1.0.2",
+    "@types/howler": "^2.2.11",
+    "nanoid": "^5.0.7",
+    "prettier": "^3.2.5",
+    "prettier-config-akrc": "^1.1.1",
+    "tslib": "^2.6.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "module": "./dist/index.js",
+  "packageManager": "yarn@4.2.2",
+  "scripts": {
+    "build": "tsup",
+    "format": "prettier --write ."
+  },
+  "type": "module",
+  "types": "./dist/index.d.ts"
+}
