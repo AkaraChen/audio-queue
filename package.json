@@ -1,5 +1,5 @@
 {
-  "name": "audio-queue",
+  "name": "audio-queue-next",
   "version": "1.0.0",
   "dependencies": {
     "howler": "^2.2.4",
