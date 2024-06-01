@@ -2,7 +2,6 @@
   "name": "audio-queue-next",
   "version": "1.0.0",
   "dependencies": {
-    "howler": "^2.2.4",
     "p-queue": "^8.0.1"
   },
   "devDependencies": {
